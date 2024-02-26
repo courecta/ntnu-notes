@@ -16,7 +16,7 @@ We have symbols pertaining to propositions<br>
 Implication is the relation of two propositions, that is P --> Q. Here are it's evaluations.
 <ul>
     <li>If P is true, then Q is true, thus the evauluation is TRUE</li>
-    <li>If P is false, then the evaluation does not break the initial condition, because it was not fulfilled in the first place. Thus, it evauluates to TRUE.</li>
+    <li>If P is false, then the evaluation does not break the initial condition, because it was not fulfilled in the first place. Thus, it evauluates to TRUE</li>
 </ul>
 Therefore, we can see here, that P is the sufficient condition of Q, while Q is the necessary condition of P.<br>
 
@@ -24,7 +24,8 @@ Therefore, we can see here, that P is the sufficient condition of Q, while Q is 
 Here we can see the difference
 <ul>
     <li>A necessary condition is one where if the necessary condition is not met, the event cannot occur</li>
-    <li>A sufficient condition is one where if the condition is met, the event must occur</li>o    </ul>
+    <li>A sufficient condition is one where if the condition is met, the event must occur</li>
+</ul>
 </blockquote>
 
 <h3>Equivalence</h3>
@@ -42,11 +43,11 @@ P <--> Q is true if both (P --> Q) and (Q --> P) is true
 A predicate is a sentence with a variable. A quantifier is a symbol that allows us to make statements about the scope of quantity of a variable
 
 <dl>
-    <dt>The universal quantifier (∀)</dt>
+    <dt>The universal quantifier ( ∀ )</dt>
         <dd>~for all</dd>
 </dl>
 <dl>
-    <dt>The existential quantifier (∃)</dt>
+    <dt>The existential quantifier ( ∃ )</dt>
         <dd>~there exists</dd>
 </dl>
 
@@ -122,11 +123,18 @@ Here, we can see that there are many different types of proofs
 
 <details>
 <summary>Second lecture(26/2) - Logic & Proofs pt. 2</summary>
-<h3>Here we have another proposition: Show that there exists irrational numbers x and y such that x</h3p>>
+<h3>Here we have another proposition: Show that there exists irrational numbers x and y such that x<sup>y</sup> is rational</h3>
+<ol>
+    <li>First, we must state any known facts that can help us that we can write as a statement</li>
+    <li>Known fact: The real power of a positive real number is real</li>
+    <li>Then, we can let x = y = &radic;2. As seen, we use the square root of 2 as our irrational number</li>
+    <li>thus, if &radic;2<sup>&radic;2</sup> is rational, then we have the requested numbers by the proposition</li>
+    <li>Finally, let x = &radic;2<sup>&radic;2</sup> and y = &radic;2. Then (&radic;2<sup>&radic;2</sup>)<sup>&radic;2</sup> = &radic;2<sup>2</sup> = 2</li>
+</ol>
 </details>
-    
+
 <br>
-    
+
 <details>
 <summary>Third lecture(1/3) - Modular Arithmetics pt. 1</summary>
 
