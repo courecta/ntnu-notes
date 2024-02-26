@@ -145,8 +145,18 @@ Sets serve as the primitive concept of most fields in mathematics<br>
 An example is Gottlob Frege in the 1900s, used set theory to define the natural numbers<br>
 One of the famous set problems/paradoxes is as such, Let S = {X | X is a set and X &notin; X}<br>
     In other words, is S &isin; S or is S &notin; S?<br>
+<br>This is known as <i>Russell's Paradox</i><br>
+<br>
+<h2>Modular Arithmetics</h2>
+<br>Definition: Given two integers a and b, and a positive integer m, we say that a is congruent to b modulo m if m | (a - b)<br>
+Notation: a &equiv; b (mod m)<br>
 
-This is known as <i>Russell's Paradox</i>
+Proposition: Let a, b, c, d &isin; Z and m &isin; N. The following two congruences hold,
+<ul>
+    <li>a &equiv; b (mod m), c &equiv; d (mod m) ==> (a + c) &equiv; (b + d) (mod m)</li>
+    <li>a &equiv; b (mod m), c &equiv; d (mod m) ==> ac &equiv; bd (mod m)</li>
+</ul>
+
 </details>
 
 <br>
