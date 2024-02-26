@@ -141,10 +141,10 @@ Here, we can see that there are many different types of proofs
         <li>S is the set of all elements x such that x has property P</li>
         <li>e.g. S = {x &isin; N | 0 < x < 5}</li>
 </ul>
-Sets serve as the primitive concept of most fields in mathematics
-An example is Gottlob Frege in the 1900s, used set theory to define the natural numbers
-One of the famous set problems/paradoxes is as such, Let S = {X | X is a set and X &notin; X}
-    In other words, is S &isin; S or is S &notin; S?
+Sets serve as the primitive concept of most fields in mathematics<br>
+An example is Gottlob Frege in the 1900s, used set theory to define the natural numbers<br>
+One of the famous set problems/paradoxes is as such, Let S = {X | X is a set and X &notin; X}<br>
+    In other words, is S &isin; S or is S &notin; S?<br>
 
 This is known as <i>Russell's Paradox</i>
 </details>
