@@ -131,6 +131,22 @@ Here, we can see that there are many different types of proofs
     <li>thus, if &radic;2<sup>&radic;2</sup> is rational, then we have the requested numbers by the proposition</li>
     <li>Finally, let x = &radic;2<sup>&radic;2</sup> and y = &radic;2. Then (&radic;2<sup>&radic;2</sup>)<sup>&radic;2</sup> = &radic;2<sup>2</sup> = 2</li>
 </ol>
+
+<h3>Sets</h3>
+<ul>
+    <li>The beginning of set theory started with Cantor in 1874 in a paper he wrote</li>
+    <li>Here is how sets are represented:</li>
+    <li>roster method (listing out all elements in the set): e.g. {a, b, c, d, e}</li>
+    <li>set comprehension: S = {x | x has property P}</li>
+        <li>S is the set of all elements x such that x has property P</li>
+        <li>e.g. S = {x &isin; N | 0 < x < 5}</li>
+</ul>
+Sets serve as the primitive concept of most fields in mathematics
+An example is Gottlob Frege in the 1900s, used set theory to define the natural numbers
+One of the famous set problems/paradoxes is as such, Let S = {X | X is a set and X &notin; X}
+    In other words, is S &isin; S or is S &notin; S?
+
+This is known as <i>Russell's Paradox</i>
 </details>
 
 <br>
