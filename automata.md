@@ -34,7 +34,7 @@ A finite automata models a computer with little to no memory
 
 We can verify the validity of the sequence by using a finite automata
 
-// fig 1
+// figure 1
 
 A finite automation processes the input as such:
 - the processing begins at the start stage
@@ -42,9 +42,33 @@ A finite automation processes the input as such:
 - For each symbol the machine moves from one state to another along the transition labeled with the symbol
 - It produces an output (either accept or reject) after it reads the last symbol. Accept is outputted if it is in the 'accept' state and rejected if otherwise
 
-A finite automation is a 5-tuple (Q, &Sigma;, &delta;, q~0~, F), where
+A finite automation is a 5-tuple (Q, &Sigma;, &delta;, q<sub>0</sub>, F), where
 - Q is a finite set called states
 - &Sigma; is a finite set called alphabet
 - &delta; is Q x &Sigma; -> Q, called the transition function
-- q~0~ &isin; Q is the start state
+- q<sub>0</sub> &isin; Q is the start state
 - F &sube; Q is the set of 'accept' states
+
+We can conclude that,
+- The language of machine M is L(M): which is the set of all strings that machine M accepts
+- Machine M recognizes a language A if A = L(M)
+- A language is a regular language if some finite automation recognizes it
+
+// figure 2
+
+Exercise:
+
+- Design a finite automation E<sub>1</sub> with
+  - L(E<sub>1</sub>) = {w: w is a string consisting of odd 1's}
+  - Design a finite automation E<sub>2</sub> that recognizes the language of all strings containing 001 as a substring
+
+// answers in figure 3
+
+Regular operations:
+- Union: A &cup; B = {x: x &isin; A or x &isin; B}
+- Concatenation: A &#9900; B = {xy: x &isin; A and y &isin; B}
+- Kleene Star: A* = {x<sub>1</sub>x<sub>2</sub> ... x<sub>k</sub>: k &GreaterEqual; 0 and x<sub>i</sub> &isin; A}
+
+Note:
+- &epsilon; (the empty string) is always a member of A*, no matter what A is
+- For any language A, A &cup; &varnothing; = A, A &#9900; { &epsilon; } = A, A &#9900; &varnothing; = &varnothing;
