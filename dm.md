@@ -156,7 +156,11 @@ Proposition: Let a, b, c, d &isin; Z and m &isin; N. The following two congruenc
     <li>a &equiv; b (mod m), c &equiv; d (mod m) ==> (a + c) &equiv; (b + d) (mod m)</li>
     <li>a &equiv; b (mod m), c &equiv; d (mod m) ==> ac &equiv; bd (mod m)</li>
 </ul>
-
+<br>
+Now lets prove each statement one by one -- the first is the statement that [ a &equiv; b (mod m) and c &equiv; d (mod m) ==> (a + c) &equiv; (b + d) (mod m) ]
+<ol>
+    <li></li>
+</ol>
 </details>
 
 <br>
