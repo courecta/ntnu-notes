@@ -99,3 +99,16 @@ Proof of Theorem 1.25:
   - &sigma;( ( r<sub>1</sub>, r<sub>2</sub>), a ) = ( &sigma;<sub>1</sub>( ( r<sub>1</sub>, a), &sigma;<sub>2</sub>( ( r<sub>2</sub>, a) ) )
   - q = ( q<sub>1</sub>, q<sub>2</sub> )
   - F = ( F<sub>1</sub> x Q<sub>2</sub> ) &cup; ( Q<sub>1</sub> x F<sub>2</sub> )
+
+Theorem 1.26
+
+The class of regular languages is closed under the concatenation operation
+
+( In other words A<sub>1</sub> and A<sub>2</sub> are regular => A<sub>1</sub> &#9900; A<sub>2</sub> is)
+
+### Nondeterminism [Michael Rabin & Dana Scott, 1959]
+
+- In a deterministic machine, given a state and the next input symbol, there is exactly one next state
+- In a nondeterministic machine, several choices may exist for the next state at any point
+- Deterministic and Nondeterministic Finite Automata are abbreviated as DFA and NFA respectively
+
