@@ -167,8 +167,11 @@ The first question we must answer is how to find these large primes?
 
 The theorem at hand here is called, Bézout's identity which states that
 
+> [!IMPORTANT] Bézout's identity
 > For a, b &isin; N, if gcd( a , b ) = d, then &exist;x, y &isin; Z s.t. *ax + by = d*
 
 
 
 ## Fourth lecture(3/4) -
+
+## Fifth lecture(3/8) - 

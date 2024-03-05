@@ -112,3 +112,85 @@ The class of regular languages is closed under the concatenation operation
 - In a nondeterministic machine, several choices may exist for the next state at any point
 - Deterministic and Nondeterministic Finite Automata are abbreviated as DFA and NFA respectively
 
+- Nondeterminism is a sort of parallel computation process, because multiple processes can occur at the same time
+- If at least one process ends on the accept state, the entire computation is accepted
+
+Example: Let A be the language consisting of all strings over  {0, 1} containing a 1 in the third position from the end.
+
+// figure 6
+
+## Third Lecture - Regex
+
+> [!IMPORTANT]
+> Every NFA has an equivalent DFA
+
+#### Proof of Theorem. 1.39
+
+- A DFA is immediately an NFA
+- For an NFA N = { Q, &Sigma;, &delta;, q<sub>0</sub>, F } , the DFA M = { Q', &Sigma;', &delta;', q<sub>0</sub>', F' } , where
+- Q' = P(Q) ( Q' is the power series of Q)
+- &delta;' ( R, a ) = &cup; E ( &delta; ( R, a ) )
+- q<sub>0</sub>' = E ( q<sub>0</sub> )
+- F' = { R &isin; Q' : F &cap; R &NotEqual; &empty; }
+
+Let's convert an NFA into a DFA
+
+// Figure 7
+
+### Corollary 1.40 - A language is regular IFF &ForAll;&Exists; ( there exists some ) NFA that recognizes it
+
+#### Theorem 1.45 - The class of regular languages is closed under the union operation
+
+### Regular Expressions [ Stephen Cole Kleene, 1951 ]
+
+- A regular expression ( regex ) is an expression built up with the regular operations, with operands being certain languages
+- The value of a regex is also a language
+
+#### Definition : R is a regular expression, if R is
+
+- a , for some a &isin; &Sigma; ( representing the language { a } )
+- &epsilon; ( representing the language { &epsilon; } )
+- &empty;
+- R<sub>1</sub> &cup; R<sub>2</sub>
+- R<sub>1</sub> &dot; R<sub>2</sub> ( usually abbreviated as  R<sub>1</sub>R<sub>2</sub> )
+- R<sub>1</sub>*
+
+where R<sub>1</sub> and R<sub>2</sub> are regular expressions
+
+Exercise : What are the languages described by he regular expressions? ( assuming &Sigma; = { 0, 1 } )
+
+// figure 8
+
+#### Theorem 1.54 - A language is regular IFF some regular expression describes it
+
+The proof is constructive; namely, in either direction we present an algorithm that converts one to the other
+
+> e.g. using Kleene's algorithm to turn an NFA / DFA &rarr; regex and converting back using Thompson's algorithm
+
+Here is a proof for sufficiency:
+
+The idea here is that we show all the atoms are recognized by some NFA. This along with Theorems 1.45 , 1.47 , and 1.49 , the sufficiency follows
+
+- R = a for a &isin; &Sigma; &rarr;
+- R = &epsilon;
+- R = &empty;
+
+Exercise : Convert ( ab &cup; a )* to an NFA using the algorithm suggested in the previous proof
+
+// figure 9
+
+Now let's look at the proof for necessity:
+
+- Assume that Q = { q<sub>0</sub>, q<sub>1</sub>, ... , q<sub>n</sub>} and F = { q<sub>0</sub>, q<sub>1</sub>, ... , q<sub>e</sub>}
+- Let R<sub>ij</sub><sup>k</sup> be the set of strings for each of which there is a corresponding sequence of transitions from state q<sub>i</sub> to q<sub>j</sub> with all intermediate states less than or equal to k
+- the language of the DFA is R<sub>01</sub><sup>n</sup> &cup; R<sub>02</sub><sup>n</sup> &cup; ... &cup; R<sub>0e</sub><sup>n</sup>
+
+Thus, the claim is as follows : For all i , j , k there is a regular expression representing Let R<sub>ij</sub><sup>k</sup>
+
+- We treat each symbol on the transition arcs as its own regular expression
+- Then, we eliminate the states one by one, only preserving the languages recognized by the original machine
+
+Example
+
+// figure 10
+
