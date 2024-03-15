@@ -220,5 +220,37 @@ Theorem: Let T be a monotonic differentiable function. let r be a continuous ran
 > [!IMPORTANT] Theorem
 > p<sub>s</sub> ( s ) = p<sub>r</sub> ( r ) | dr/ds |
 
+- note that in real world problems, usually, the transform function can be used even if the function is not strictly monotonic
+
+## Chapter 5 - Neighborhood Processing
+
+- While point processing applies a function to each pixel
+- Neighborhood processing applies a function to each neighborhood of pixels
+
+Neighborhoods have masks that can have different shapes and sizes
+
+Every mask has a reference point
+
+A mask + function = filter
+
+#### But what is a filter?
+
+- 1-D mask of a 3 contiguous pixel shape with a 1/3 function takes those 3 pixels and applies the 1/3 function to them
+- 2-D applies the same but with 2 dimensional masks and functions
+
+- An example is spatial filtering which applies a function to take a fraction of the original discrete function and allow them to become more even
+- This is actually a type of noise filtering, or removal
+
+- Image filtering uses a reference point filter to process
+1. Using an input image
+2. it looks at the current pixel under consideration
+3. then it identifies its pixel neighborhood
+4. then it applies the filter
+5. The entire neighborhood is then applied with the filter
+6. then the sum of all products is obtained
+7. Then value replacement takes place
+8. The output pixel is then used to replace the original pixel in (2)
+9. Thus, an output image is produced
+
 
 
