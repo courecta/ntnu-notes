@@ -236,5 +236,22 @@ The language C, can also be proven to be irregular, with the same proof we gave 
 - If y consists of both 0's and 1's, then xyyz contains the same number of 0's and 1's but its not contiguous
 - Thus there is no p to satisfy the conditions for the pumping lemma &rarr; contradiction
 
+Show that the following languages are non-regular
+
+- F = { ww : w &isin; { 0, 1 }* }
+- E = { 0<sup>i</sup>1<sup>j</sup> : i > j }
+- D = { 1<sup>n<sup>2</sup></sup> : n &GreaterEqual; 0 }
+
+> [!note] Example E
+> We will take E as an example. First, we will use proof by contradiction, thus assuming that that e is regular. If this is the case, what is E's pumping length P?
+> 
+> We can then define P as the sequence xy<sup>i</sup>z, where we can take a string accepted by E such as 00000 ... 0 11111 ... 1 where the first substring of 0's is followed by a substring of 1's., we can make the following observation
+> 
+> &forall; S &isin; A | S | &GreaterEqual; P , &Exists; y s.t. xy<sup>i</sup>z &isin; A
+> 
+> Which means that
+> 
+> &forall; P &isin; N , &Exists; S &isin; A , | S | &GreaterEqual; P , &forall;y xy<sup>0</sup>z &notin; A or xy<sup>1</sup>z &notin; A... 
+
 ## Fifth lecture - CFG ( Context-Free Grammar)
 

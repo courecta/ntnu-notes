@@ -6,6 +6,7 @@
       {
         "id": "9dea2a57e7237b25",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "5e443f5210370c21",
@@ -24,6 +25,7 @@
       {
         "id": "02bf8a6e616ec0e6",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "b30ac82af6371efc",
@@ -190,7 +192,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b30ac82af6371efc",
+  "active": "5e443f5210370c21",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Notebook/Semester 2/Image Processing/imageProcess.md",
