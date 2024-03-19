@@ -249,9 +249,35 @@ Show that the following languages are non-regular
 > 
 > &forall; S &isin; A | S | &GreaterEqual; P , &Exists; y s.t. xy<sup>i</sup>z &isin; A
 > 
-> Which means that
+> Which is the condition we need, however here we observe,
 > 
-> &forall; P &isin; N , &Exists; S &isin; A , | S | &GreaterEqual; P , &forall;y xy<sup>0</sup>z &notin; A or xy<sup>1</sup>z &notin; A... 
+> &forall; P &isin; N , &Exists; S &isin; A , | S | &GreaterEqual; P , &forall;y xy<sup>0</sup>z &notin; A or xy<sup>1</sup>z &notin; A...
+> 
+> Normally, we can say that we could find a string S that doesn't satisfy the 'for all Y' condition, such that it contradicts our original assumption that E is regular
 
 ## Fifth lecture - CFG ( Context-Free Grammar)
+
+A context-free grammar is a 4-tuple ( V, &Sigma;, R, S ), where
+
+- V is a finite set, called the variables
+- &Sigma; is a finite set, disjoint from V, called the terminals
+- R is a finite set of rules
+	- each rule being a variable and a string of variables and terminals
+- S &isin; V is the start variable
+
+Let us take an example of a grammar.
+
+Here we have grammar G<sub>1</sub>
+
+1. A &rarr; 0A1
+2. A &rarr; B
+3. B &rarr; #
+
+- Grammar  G<sub>1</sub> generates the string 000#111
+
+	A &rarr; 0A1 &rarr; 00A11 &rarr; 000A111 &rarr; 000B111 &rarr; 000#111
+
+You can represent the process of derivation by using a parse tree
+
+![[Pasted image 20240319154507.png]]
 
