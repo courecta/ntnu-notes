@@ -281,3 +281,15 @@ You can represent the process of derivation by using a parse tree
 
 ![[Pasted image 20240319154507.png]]
 
+PushDown Automata (PDA)
+
+- A pushdown automation is like an NFA but has an extra component of memory called a stack
+- A PDA processes a string as an NFA does except that
+- it can pop and push a symbol onto the stack during a transition
+- a transition is determined according to the current state, the symbol read from the input and the top most stack symbol
+
+Ex. PDA for { 0<sup>n</sup>1<sup>n</sup> : n &GreaterEqual; 0 }:
+
+![[Pasted image 20240319164251.png]]
+
+A pushdown-automata is a 6-tuple ( V, &Sigma;, &Gamma;, )
