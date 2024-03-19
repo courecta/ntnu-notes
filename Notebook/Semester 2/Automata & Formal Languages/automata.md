@@ -224,8 +224,8 @@ The language B = { 0<sup>n</sup>1<sup>n</sup>: n &GreaterEqual; 0 } is not regul
 Now let's see its general proof for Theorem 1.70
 
 - Let M = ( Q, &Sigma;, &delta;, q<sub>0</sub>, F ) be a DFA that recognizes A
-- The claim is that |Q| can be the pumping length
-- consider a string s of length n ( n &GreaterEqual; |Q| )
+- The claim is that | Q | can be the pumping length
+- consider a string s of length n ( n &GreaterEqual; | Q | )
 - Let r<sub>1</sub>,...,r<sub>n+1</sub> be the sequence of states by which M processes s
 - By the pigeonhole principle, there exists j and l ( with j < l ) such that r<sub>j</sub> = r<sub>l</sub>
 - We take r<sub>l</sub> to be the very first repeated states
@@ -236,5 +236,5 @@ The language C, can also be proven to be irregular, with the same proof we gave 
 - If y consists of both 0's and 1's, then xyyz contains the same number of 0's and 1's but its not contiguous
 - Thus there is no p to satisfy the conditions for the pumping lemma &rarr; contradiction
 
-## Fifth lectre - CFG ( Context-Free Grammar)
+## Fifth lecture - CFG ( Context-Free Grammar)
 
