@@ -237,3 +237,4 @@ The language C, can also be proven to be irregular, with the same proof we gave 
 - Thus there is no p to satisfy the conditions for the pumping lemma &rarr; contradiction
 
 ## Fifth lectre - CFG ( Context-Free Grammar)
+
