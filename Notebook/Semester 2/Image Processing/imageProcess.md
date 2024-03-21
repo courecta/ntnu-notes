@@ -254,3 +254,30 @@ A mask + function = filter
 9. Thus, an output image is produced
 
 
+Review of convolution on a 1-D spatial field
+
+$$
+\int_{-\infty}^{\infty} f(a)g(x-a) \, da 
+$$
+
+Smoothing & Averaging filters
+
+techniques for using mask values and applying functions that can extend, i.e. from a 3x3 input and applying a mask that is bigger. However, it may eventually lead to being blurry.
+
+Gaussian filter
+
+1-D :
+$$
+g(x) = \dfrac{1}{\sqrt{ 2\pi\sigma }}e^\dfrac{x-\bar{x}}{2\sigma^2}
+$$
+
+ Frequency domain filters
+
+Spatial filters applied to the spatial domain of the image can be converted to frequency filters ( using Fourier transformations ) are applied to the frequency domain of the image.
+
+High frequency components &rarr; edges, noises
+Low frequency components &rarr; regions
+
+1-D case: A spatial domain being Fourier transformed into a  frequency domain
+
+2-D case: takes an input an applies the same high/low pass filter except on a 2-D plane
