@@ -205,12 +205,11 @@ They can be classified as
 - high contrast images ( colors pop best )
 
 Contrasts can be stretched with a transform function of the general form
-```
-      x - a
-y = (-------) ^ γ ( d - c) + c
-      b - a
-```
 
+> [!example] General Form Equation
+> $$
+> y = (\dfrac{x-a}{b-a})^y(d-c)+c
+> $$
 #### 4.3.2 Histogram Equalization
 
 - Change the histogram of an image to a much more uniform distribution using the transform function to form the accumulative histogram of the image
@@ -253,6 +252,5 @@ A mask + function = filter
 7. Then value replacement takes place
 8. The output pixel is then used to replace the original pixel in (2)
 9. Thus, an output image is produced
-
 
 
