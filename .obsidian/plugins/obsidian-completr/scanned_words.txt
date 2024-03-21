@@ -493,6 +493,7 @@ files
 Given
 GreaterEqual
 Grammar
+Gamma
 zero
 zao
 zoom
