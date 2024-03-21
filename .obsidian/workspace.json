@@ -13,8 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4cfcc63c60baddd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9414fc8802cdd2dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c08f3d64441a0976",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md"
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md"
               }
             }
           },
@@ -171,11 +190,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c58837979d5e1c74",
+  "active": "9414fc8802cdd2dc",
   "lastOpenFiles": [
+    "Notebook/Semester 2/Automata & Formal Languages/automata.md",
     "Notebook/Semester 2/Automata & Formal Languages/Pasted image 20240319164251.png",
     "Excalidraw/Drawing 2024-03-19 16.33.26.excalidraw.md",
-    "Notebook/Semester 2/Automata & Formal Languages/automata.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Notebook/Semester 2/Automata & Formal Languages/Pasted image 20240319154507.png",

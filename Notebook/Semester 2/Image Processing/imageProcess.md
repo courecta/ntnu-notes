@@ -218,7 +218,9 @@ y = (-------) ^ γ ( d - c) + c
 Theorem: Let T be a monotonic differentiable function. let r be a continuous random variable with density p<sub>r</sub>. Let s = T ( r ) with density p<sub>r</sub>. Thus,
 
 > [!IMPORTANT] Theorem
-> p<sub>s</sub> ( s ) = p<sub>r</sub> ( r ) | dr/ds |
+> $$
+> P_{s}(s) = P_{r}(r) \mid\dfrac{dr}{ds}|
+> $$
 
 - note that in real world problems, usually, the transform function can be used even if the function is not strictly monotonic
 
