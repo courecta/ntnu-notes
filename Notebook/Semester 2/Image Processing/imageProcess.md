@@ -281,3 +281,31 @@ Low frequency components &rarr; regions
 1-D case: A spatial domain being Fourier transformed into a  frequency domain
 
 2-D case: takes an input an applies the same high/low pass filter except on a 2-D plane
+
+### Edge Sharpening or Enhancement
+
+Unsharp Masking takes an image and makes it more smooth by taking the original image $$f(x,y)$$ and its blurred
+$$
+\tilde{f}(x,y)
+$$
+
+and uses it to subtract
+$$
+g_{mask}(x,y)
+$$
+then scales it with k
+$$
+k \times g_{mask}(x,y)
+$$
+finally adding,
+$$
+g(x,y)
+$$
+and scales it for display
+
+The original image is of the signal $$f(x,y)$$
+The blurred signal is essentially a smoothed version of the original image
+
+The unsharp mask g then is such that,$$g_{mask}(x,y) = f(x,y) - \tilde{f}(x,y)$$
+Thus, the sharpened signal is obtained by adding$$k \times (c) to (a) s.t. g(x,y) = f(x,y) + k \times g_{mask}(x,y)$$
+There are alternatives to this process such as using a high boost filter
