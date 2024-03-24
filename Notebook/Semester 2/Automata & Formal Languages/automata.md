@@ -224,8 +224,8 @@ The language B = { 0<sup>n</sup>1<sup>n</sup>: n &GreaterEqual; 0 } is not regul
 Now let's see its general proof for Theorem 1.70
 
 - Let M = ( Q, &Sigma;, &delta;, q<sub>0</sub>, F ) be a DFA that recognizes A
-- The claim is that |Q| can be the pumping length
-- consider a string s of length n ( n &GreaterEqual; |Q| )
+- The claim is that | Q | can be the pumping length
+- consider a string s of length n ( n &GreaterEqual; | Q | )
 - Let r<sub>1</sub>,...,r<sub>n+1</sub> be the sequence of states by which M processes s
 - By the pigeonhole principle, there exists j and l ( with j < l ) such that r<sub>j</sub> = r<sub>l</sub>
 - We take r<sub>l</sub> to be the very first repeated states
@@ -236,4 +236,60 @@ The language C, can also be proven to be irregular, with the same proof we gave 
 - If y consists of both 0's and 1's, then xyyz contains the same number of 0's and 1's but its not contiguous
 - Thus there is no p to satisfy the conditions for the pumping lemma &rarr; contradiction
 
-## Fifth lectre - CFG ( Context-Free Grammar)
+Show that the following languages are non-regular
+
+- F = { ww : w &isin; { 0, 1 }* }
+- E = { 0<sup>i</sup>1<sup>j</sup> : i > j }
+- D = { 1<sup>n<sup>2</sup></sup> : n &GreaterEqual; 0 }
+
+> [!note] Example E
+> We will take E as an example. First, we will use proof by contradiction, thus assuming that that e is regular. If this is the case, what is E's pumping length P?
+> 
+> We can then define P as the sequence xy<sup>i</sup>z, where we can take a string accepted by E such as 00000 ... 0 11111 ... 1 where the first substring of 0's is followed by a substring of 1's., we can make the following observation
+> 
+> &forall; S &isin; A | S | &GreaterEqual; P , &Exists; y s.t. xy<sup>i</sup>z &isin; A
+> 
+> Which is the condition we need, however here we observe,
+> 
+> &forall; P &isin; N , &Exists; S &isin; A , | S | &GreaterEqual; P , &forall;y xy<sup>0</sup>z &notin; A or xy<sup>1</sup>z &notin; A...
+> 
+> Normally, we can say that we could find a string S that doesn't satisfy the 'for all Y' condition, such that it contradicts our original assumption that E is regular
+
+## Fifth lecture - CFG ( Context-Free Grammar)
+
+A context-free grammar is a 4-tuple ( V, &Sigma;, R, S ), where
+
+- V is a finite set, called the variables
+- &Sigma; is a finite set, disjoint from V, called the terminals
+- R is a finite set of rules
+	- each rule being a variable and a string of variables and terminals
+- S &isin; V is the start variable
+
+Let us take an example of a grammar.
+
+Here we have grammar G<sub>1</sub>
+
+1. A &rarr; 0A1
+2. A &rarr; B
+3. B &rarr; #
+
+- Grammar  G<sub>1</sub> generates the string 000#111
+
+	A &rarr; 0A1 &rarr; 00A11 &rarr; 000A111 &rarr; 000B111 &rarr; 000#111
+
+You can represent the process of derivation by using a parse tree
+
+![[Pasted image 20240319154507.png]]
+
+PushDown Automata (PDA)
+
+- A pushdown automation is like an NFA but has an extra component of memory called a stack
+- A PDA processes a string as an NFA does except that
+- it can pop and push a symbol onto the stack during a transition
+- a transition is determined according to the current state, the symbol read from the input and the top most stack symbol
+
+Ex. PDA for { 0<sup>n</sup>1<sup>n</sup> : n &GreaterEqual; 0 }:
+
+![[Pasted image 20240319164251.png]]
+
+A pushdown-automata is a 6-tuple ( V, &Sigma;, &Gamma;, )

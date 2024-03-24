@@ -205,12 +205,11 @@ They can be classified as
 - high contrast images ( colors pop best )
 
 Contrasts can be stretched with a transform function of the general form
-```
-      x - a
-y = (-------) ^ γ ( d - c) + c
-      b - a
-```
 
+> [!example] General Form Equation
+> $$
+> y = (\dfrac{x-a}{b-a})^y(d-c)+c
+> $$
 #### 4.3.2 Histogram Equalization
 
 - Change the histogram of an image to a much more uniform distribution using the transform function to form the accumulative histogram of the image
@@ -218,7 +217,9 @@ y = (-------) ^ γ ( d - c) + c
 Theorem: Let T be a monotonic differentiable function. let r be a continuous random variable with density p<sub>r</sub>. Let s = T ( r ) with density p<sub>r</sub>. Thus,
 
 > [!IMPORTANT] Theorem
-> p<sub>s</sub> ( s ) = p<sub>r</sub> ( r ) | dr/ds |
+> $$
+> P_{s}(s) = P_{r}(r) \mid\dfrac{dr}{ds}|
+> $$
 
 - note that in real world problems, usually, the transform function can be used even if the function is not strictly monotonic
 
@@ -253,4 +254,58 @@ A mask + function = filter
 9. Thus, an output image is produced
 
 
+Review of convolution on a 1-D spatial field
 
+$$
+\int_{-\infty}^{\infty} f(a)g(x-a) \, da 
+$$
+
+Smoothing & Averaging filters
+
+techniques for using mask values and applying functions that can extend, i.e. from a 3x3 input and applying a mask that is bigger. However, it may eventually lead to being blurry.
+
+Gaussian filter
+
+1-D :
+$$
+g(x) = \dfrac{1}{\sqrt{ 2\pi\sigma }}e^\dfrac{x-\bar{x}}{2\sigma^2}
+$$
+
+ Frequency domain filters
+
+Spatial filters applied to the spatial domain of the image can be converted to frequency filters ( using Fourier transformations ) are applied to the frequency domain of the image.
+
+High frequency components &rarr; edges, noises
+Low frequency components &rarr; regions
+
+1-D case: A spatial domain being Fourier transformed into a  frequency domain
+
+2-D case: takes an input an applies the same high/low pass filter except on a 2-D plane
+
+### Edge Sharpening or Enhancement
+
+Unsharp Masking takes an image and makes it more smooth by taking the original image $$f(x,y)$$ and its blurred
+$$
+\tilde{f}(x,y)
+$$
+
+and uses it to subtract
+$$
+g_{mask}(x,y)
+$$
+then scales it with k
+$$
+k \times g_{mask}(x,y)
+$$
+finally adding,
+$$
+g(x,y)
+$$
+and scales it for display
+
+The original image is of the signal $$f(x,y)$$
+The blurred signal is essentially a smoothed version of the original image
+
+The unsharp mask g then is such that,$$g_{mask}(x,y) = f(x,y) - \tilde{f}(x,y)$$
+Thus, the sharpened signal is obtained by adding$$k \times (c) to (a) s.t. g(x,y) = f(x,y) + k \times g_{mask}(x,y)$$
+There are alternatives to this process such as using a high boost filter

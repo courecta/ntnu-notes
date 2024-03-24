@@ -18,8 +18,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aae53782e0789fe2",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "ed4be63ac08cf5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notebook/Semester 2/Image Processing/imageProcess.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -150,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 658.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,12 +194,27 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "5e443f5210370c21",
+  "active": "ed4be63ac08cf5b0",
   "lastOpenFiles": [
-    "Notebook/Semester 2/Discrete Mathematics/dm.md",
-    "Notebook/Semester 2/Automata & Formal Languages/automata.md",
-    "Untitled.canvas",
     "Notebook/Semester 2/Image Processing/imageProcess.md",
+    "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Notebook/Semester 2/Automata & Formal Languages/Pasted image 20240319164251.png",
+    "Notebook/Semester 2/Automata & Formal Languages/Pasted image 20240319154507.png",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.svg",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Drawing 2024-03-19 16.33.26.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-19 15.31.59.excalidraw.md",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "Notebook/Semester 2/Discrete Mathematics/dm.md",
     "Notebook/Semester 2",
     "Notebook/Semester 2/Image Processing",
     "Notebook/Semester 2/Automata & Formal Languages",
@@ -190,7 +229,6 @@
     "ntnu-notes/README.md",
     "ntnu-notes",
     "Test Blank Template.md",
-    "Untitled.md",
-    "Untitled 1.canvas"
+    "Untitled.md"
   ]
 }
