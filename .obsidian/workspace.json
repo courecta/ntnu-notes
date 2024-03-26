@@ -11,27 +11,33 @@
             "id": "5e443f5210370c21",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/vault-stats.json",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "1ff28e1db2765dbf",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "fab4fab24c95e00b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcf4e6b62b139d2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c08f3d64441a0976",
@@ -97,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md"
               }
             }
           },
@@ -162,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +190,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1ff28e1db2765dbf",
+  "active": "5e443f5210370c21",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+    "conflict-files-obsidian-git.md",
     "Notebook/Semester 2/Image Processing/imageProcess.md",
     "Notebook/Semester 2/Automata & Formal Languages/Pasted image 20240319164251.png",
     "Excalidraw/Drawing 2024-03-19 16.33.26.excalidraw.md",
