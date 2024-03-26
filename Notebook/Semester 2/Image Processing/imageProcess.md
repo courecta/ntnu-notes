@@ -309,3 +309,42 @@ The blurred signal is essentially a smoothed version of the original image
 The unsharp mask g then is such that,$$g_{mask}(x,y) = f(x,y) - \tilde{f}(x,y)$$
 Thus, the sharpened signal is obtained by adding$$k \times (c) to (a) s.t. g(x,y) = f(x,y) + k \times g_{mask}(x,y)$$
 There are alternatives to this process such as using a high boost filter
+
+### Non-linear smoothing filters
+
+takes the$$x_{1} \leq x_{2} \leq x_{3} \leq \dots x_{n} $$
+such that,$$x_{i} = \text{neighborhood elements}$$
+We can then have the choice of applying the maximum filter by taking the nth, which is the highest element, or the first element for a minimum filter to apply to the rest of the image, usually resulting in a higher, if max, and a darker image if minimum.
+
+### Median filter
+
+- noise removal
+- yet, edge preserving
+
+this is a very useful filter method technique due to the fact that it preserves edges, and edges are usually very useful information that needs to be preserved
+
+### Kuwahara filter
+
+The output is the mean of the region with the lowest variance
+
+### K-nearest neighbors
+
+Simply just taking K neighbors and averaging them to get a filter value
+
+### Geometric mean filter
+$$
+\prod_{(i,j)\in M}x(i,j)^\dfrac{1}{|M|}
+$$
+### Alpha-trimmed mean filter
+
+1. Order elements
+2. trim off m end elements
+3. take the mean,
+
+$$\sum_{i=m+1}^{n-m}\dfrac{x_{i}}{n-2m}$$
+Lastly, there is region of interest processing that takes a specific point and applies one of three, usually,
+
+1. Average filtering
+2. unsharp masking
+3. Laplacian of Gaussian
+
