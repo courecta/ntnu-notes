@@ -40,6 +40,7 @@ extend
 eventually
 edges
 edge
+every
 plugin
 parsed
 problems
@@ -166,6 +167,7 @@ Spatial
 Smoothing
 Sharpening
 Simply
+Source
 EXCALIDRAW
 Each
 Exercise
@@ -263,6 +265,7 @@ minimum
 max
 mean
 masking
+mode
 of
 one
 own
@@ -300,6 +303,8 @@ out
 order
 obtained
 off
+obsidian
+occurrence
 document
 description
 delta
@@ -337,6 +342,8 @@ ds
 dimensional
 domain
 darker
+deleted
+desired
 Drawing
 Determine
 Design
@@ -392,6 +399,7 @@ Addition
 Averaging
 Alpha
 Average
+Additional
 Introduction
 Is
 It
@@ -404,6 +412,7 @@ Imaging
 Imaginary
 Its
 Interchange
+Instructions
 We
 What
 Which
@@ -446,6 +455,8 @@ lighting
 low
 lead
 lowest
+list
+listed
 at
 and
 allows
@@ -497,6 +508,9 @@ adding
 alternatives
 apply
 averaging
+automatically
+available
+above
 set
 subset
 studying
@@ -572,6 +586,9 @@ smoothed
 sharpened
 smoothing
 specific
+stats
+strongly
+simple
 by
 be
 before
@@ -603,6 +620,8 @@ bigger
 blurry
 blurred
 boost
+below
+blocks
 Hilbert
 Here
 HTSqr
@@ -648,6 +667,7 @@ Cx
 Complementation
 Contrasts
 Change
+Conflicts
 us
 up
 using
@@ -663,6 +683,7 @@ used
 unsharp
 useful
 just
+json
 what
 we
 while
@@ -681,6 +702,7 @@ width
 well
 working
 world
+workspace
 can
 classified
 capability
@@ -767,6 +789,10 @@ convolution
 converted
 components
 choice
+commit
+commands
+conflicted
+conflicts
 RECURSIVE
 REGULAR
 Regex
@@ -894,6 +920,8 @@ regions
 rest
 resulting
 region
+resolve
+recommend
 no
 next
 nondeterministic
@@ -937,6 +965,8 @@ visual
 various
 vs
 variance
+vault
+viewing
 Union
 Usually
 Ultrasound
@@ -966,6 +996,7 @@ Network
 Neighborhood
 Neighborhoods
 Non
+Not
 Proof
 Pumping
 PushDown
@@ -980,6 +1011,7 @@ PNG
 Portable
 Possible
 Point
+Please
 By
 Bold
 Brief
