@@ -83,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,7 +191,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "5e443f5210370c21",
+  "active": "12810a862a2e19be",
   "lastOpenFiles": [
     "Notebook/Semester 2/Automata & Formal Languages/automata.md",
     "conflict-files-obsidian-git.md",
