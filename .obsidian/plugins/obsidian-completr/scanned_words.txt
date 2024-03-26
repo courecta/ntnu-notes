@@ -36,6 +36,10 @@ etc
 environment
 exact
 even
+extend
+eventually
+edges
+edge
 plugin
 parsed
 problems
@@ -88,6 +92,9 @@ pixels
 plots
 products
 place
+pass
+preserves
+preserved
 tags
 to
 the
@@ -135,6 +142,12 @@ times
 transform
 takes
 them
+transformations
+transformed
+taking
+technique
+trimmed
+trim
 Switch
 SENSITIVE
 Second
@@ -150,6 +163,9 @@ Structure
 Simultaneous
 Supports
 Spatial
+Smoothing
+Sharpening
+Simply
 EXCALIDRAW
 Each
 Exercise
@@ -163,6 +179,9 @@ EDEDEDFF
 EOS
 Experts
 Equalization
+Equation
+Edge
+Enhancement
 VIEW
 VU
 in
@@ -192,6 +211,7 @@ isn
 information
 important
 identifies
+interest
 MORE
 Machine
 Matplotlib
@@ -204,12 +224,15 @@ Microsoft
 Multiple
 Monitor
 Multiplication
+Masking
+Median
 OPTIONS
 OxSzLz
 OallVDh
 Other
 OpenCV
 Overshoots
+Order
 menu
 may
 makes
@@ -235,6 +258,11 @@ much
 monotonic
 masks
 mask
+maximum
+minimum
+max
+mean
+masking
 of
 one
 own
@@ -271,6 +299,7 @@ objects
 out
 order
 obtained
+off
 document
 description
 delta
@@ -306,6 +335,8 @@ density
 dr
 ds
 dimensional
+domain
+darker
 Drawing
 Determine
 Design
@@ -335,6 +366,9 @@ Files
 Format
 File
 False
+Form
+Frequency
+Fourier
 Languages
 Lecture
 Let
@@ -344,6 +378,8 @@ Libraries
 Learn
 Low
 LMS
+Lastly
+Laplacian
 Automata
 Accept
 Assume
@@ -353,6 +389,9 @@ An
 AV
 Another
 Addition
+Averaging
+Alpha
+Average
 Introduction
 Is
 It
@@ -405,6 +444,8 @@ linear
 looks
 lighting
 low
+lead
+lowest
 at
 and
 allows
@@ -451,6 +492,11 @@ appears
 accumulative
 allow
 applied
+applying
+adding
+alternatives
+apply
+averaging
 set
 subset
 studying
@@ -518,6 +564,14 @@ stretched
 strictly
 sizes
 shape
+smooth
+subtract
+scales
+signal
+smoothed
+sharpened
+smoothing
+specific
 by
 be
 before
@@ -545,6 +599,10 @@ bits
 bright
 best
 become
+bigger
+blurry
+blurred
+boost
 Hilbert
 Here
 HTSqr
@@ -602,6 +660,8 @@ uZO
 uses
 uniform
 used
+unsharp
+useful
 just
 what
 we
@@ -703,6 +763,10 @@ consequence
 contrast
 colors
 consideration
+convolution
+converted
+components
+choice
 RECURSIVE
 REGULAR
 Regex
@@ -713,6 +777,7 @@ Resonance
 Range
 RGB
 Representing
+Review
 hierarchy
 has
 hard
@@ -728,6 +793,8 @@ header
 histogram
 how
 high
+highest
+higher
 fact
 fundamental
 finite
@@ -763,6 +830,10 @@ factors
 filter
 filtering
 fraction
+field
+filters
+frequency
+finally
 Given
 GreaterEqual
 Grammar
@@ -771,6 +842,9 @@ Grayscale
 Graphics
 Group
 GIF
+General
+Gaussian
+Geometric
 zero
 zao
 zoom
@@ -816,6 +890,10 @@ real
 reference
 replacement
 replace
+regions
+rest
+resulting
+region
 no
 next
 nondeterministic
@@ -835,6 +913,10 @@ nature
 needs
 note
 neighborhood
+noises
+nth
+nearest
+neighbors
 vending
 valid
 verify
@@ -854,6 +936,7 @@ values
 visual
 various
 vs
+variance
 Union
 Usually
 Ultrasound
@@ -861,11 +944,13 @@ Ultraviolet
 Undershoots
 Uses
 Using
+Unsharp
 xy
 xyz
 xyyz
 Kleene
 Kq
+Kuwahara
 Note
 Nondeterminism
 Nondeterministic
@@ -880,6 +965,7 @@ No
 Network
 Neighborhood
 Neighborhoods
+Non
 Proof
 Pumping
 PushDown
@@ -921,6 +1007,7 @@ good
 graphics
 grayscale
 group
+get
 You
 YiFuaYUtAc
 Xk
@@ -930,5 +1017,6 @@ JPEG
 Joint
 years
 you
+yet
 quantization
 quality
