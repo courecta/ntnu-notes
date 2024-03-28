@@ -391,7 +391,7 @@ Bicubic Interpolation is the application of cubic interpolation along the rows a
 Steps
 1. Zero Interleave
 2. Filling
-	- For each pixel, apply NN ( N x N ) interpolation
+	- For each pixel, apply NN ( Nearest neighbor ) interpolation
 	- or, apply Bilinear interpolation
 	- or, Bicubic interpolation
 
@@ -433,4 +433,10 @@ Solutions
 1. Enlarge image size to solve the out of range problem
 2. Perform an inverse transformation ( to fix holes and truncation error )
 
+> [!note] Anamorphisis
+> Stretch or distort shape of object for artistic or dramatic effect
+
+## Chapter 7 - Fourier Analysis
+
+Fourier Analysis = Fourier Series + Fourier transform
 
