@@ -440,3 +440,4 @@ Solutions
 
 Fourier Analysis = Fourier Series + Fourier transform
 
+Fourier Series - A periodic ( T ) function that can be written as the sum of sines and cosines of varying amplitudes and frequencies mathematically
