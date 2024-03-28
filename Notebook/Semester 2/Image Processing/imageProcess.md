@@ -444,4 +444,11 @@ Fourier Analysis = Fourier Series + Fourier transform
 - Some functions are formed by a finite number of sinusoidal / sinuous functions
 - Some functions may require an infinite number of sinusoidal / sinuous functions to compose
 
-- A fourier transform preserves the information
+- A Fourier transform preserves the information of the signal function
+
+$$F(u)=\int_{-\infty}^{\infty}f(x)\exp(-j_{2}\pi ux) dx $$
+while the inverse Fourier transform of F( u ) is
+
+$$f(x)=\int_{-\infty}^{\infty}F(u)\exp(j_{2}\pi ux) dx$$
+
+and there are the discrete versions of both as well, and the vector-matrix form bases off of the discrete form instead
