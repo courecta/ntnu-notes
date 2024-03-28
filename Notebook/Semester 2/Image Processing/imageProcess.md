@@ -348,3 +348,36 @@ Lastly, there is region of interest processing that takes a specific point and a
 2. unsharp masking
 3. Laplacian of Gaussian
 
+## Chapter 6 - Image Geometry
+
+> [!abstract] Objective
+> Consider the transformations of the shape, size, position, and orientation of an image
+
+There are 2 types of transformations
+
+- Rigid transformations
+	- e.g. translation and rotation
+- Deformable transformations
+	- e.g. shape change ( warping ) scale ( size ) change
+
+There are 2 major steps for performing a geometrical transformation of an image,
+
+1. Sampling - determine the positions to-be-filled values
+2. Interpolation - determine values to fill the positions
+	- Nearest-neighbor interpolation
+	- linear interpolation
+
+But what if we were to apply interpolation on a 2D plane, we have to apply *Bilinear Interpolation*
+
+Step 1: $$f(x,y')=\mu f(x,y+1)+(1-\mu)f(x,y)$$
+Step 2: $$f(x+1,y')=\mu f(x+1,y+1)+(1-\mu)f(x+1,y)$$
+Step 3:$$f(x',y')=\lambda f(x+1,y')+(1-\lambda)f(x,y')$$
+Step 4:$$f(x',y')=\lambda f(x+1,y')+(1-\lambda)f(x,y')$$
+There is a General Interpolation that follows the interpolation function
+
+$$R(\cdot),0\leq\lambda\leq 1$$
+of which, x1 and x2 represent the locations whose values f ( x1 ) and f ( x2 ) are available, and x' is the location of the value f ( x' ) is to be determined
+
+
+
+
