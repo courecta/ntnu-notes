@@ -378,6 +378,26 @@ There is a General Interpolation that follows the interpolation function
 $$R(\cdot),0\leq\lambda\leq 1$$
 of which, x1 and x2 represent the locations whose values f ( x1 ) and f ( x2 ) are available, and x' is the location of the value f ( x' ) is to be determined
 
+Thus, given those above 2 function points, we can conclude that, Linear Interpolation can be represented as
 
+$$f(x')=(1-\lambda)f(x_{1})+\lambda(x_{2})$$
+while General Interpolation can be represented as $$f(x')=R(-\lambda)f(x_{1})+R(1-\lambda)f(x_{2})$$
+There is also the cubic interpolation function, where 4 points are needed.
 
+Bicubic Interpolation is the application of cubic interpolation along the rows and then down the columns of the points of the image respectively
 
+### Image enlargement
+
+Steps
+1. Zero Interleave
+2. Filling
+	- For each pixel, apply NN ( N x N ) interpolation
+	- or, apply Bilinear interpolation
+	- or, Bicubic interpolation
+
+### Image Reduction
+
+- Subsampling
+- Edge following
+
+### Image Rotation
