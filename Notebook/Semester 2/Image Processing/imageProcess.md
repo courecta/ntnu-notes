@@ -401,3 +401,36 @@ Steps
 - Edge following
 
 ### Image Rotation
+
+$$
+\begin{bmatrix}
+x \\ y
+\end{bmatrix} = \begin{bmatrix}
+\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta
+\end{bmatrix} \begin{bmatrix}
+x \\ y
+\end{bmatrix}
+$$
+and
+
+$$\begin{bmatrix}
+x \\ y
+\end{bmatrix} = \begin{bmatrix}
+\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta
+\end{bmatrix} \begin{bmatrix}
+x' \\ y'
+\end{bmatrix}
+$$
+
+Drawbacks:
+
+1. Out of Range
+2. Truncation error
+3. Holes
+
+Solutions
+
+1. Enlarge image size to solve the out of range problem
+2. Perform an inverse transformation ( to fix holes and truncation error )
+
+
