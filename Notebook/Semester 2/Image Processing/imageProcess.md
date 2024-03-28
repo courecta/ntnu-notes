@@ -440,4 +440,7 @@ Solutions
 
 Fourier Analysis = Fourier Series + Fourier transform
 
-Fourier Series - A periodic ( T ) function that can be written as the sum of sines and cosines of varying amplitudes and frequencies mathematically
+- Fourier Series - A periodic ( T ) function that can be written as the sum of sines and cosines of varying amplitudes and frequencies mathematically
+- Some functions are formed by a finite number of sinusoidal / sinuous functions
+- Some functions may require an infinite number of sinusoidal / sinuous functions to compose
+
