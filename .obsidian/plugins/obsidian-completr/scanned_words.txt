@@ -96,6 +96,9 @@ place
 pass
 preserves
 preserved
+production
+path
+possibilities
 tags
 to
 the
@@ -149,6 +152,7 @@ taking
 technique
 trimmed
 trim
+terminal
 Switch
 SENSITIVE
 Second
@@ -168,6 +172,8 @@ Smoothing
 Sharpening
 Simply
 Source
+Start
+Sufficiency
 EXCALIDRAW
 Each
 Exercise
@@ -266,6 +272,7 @@ max
 mean
 masking
 mode
+match
 of
 one
 own
@@ -344,6 +351,10 @@ domain
 darker
 deleted
 desired
+derived
+depict
+difficulty
+depend
 Drawing
 Determine
 Design
@@ -376,6 +387,7 @@ False
 Form
 Frequency
 Fourier
+Find
 Languages
 Lecture
 Let
@@ -400,6 +412,8 @@ Averaging
 Alpha
 Average
 Additional
+Any
+Apply
 Introduction
 Is
 It
@@ -413,6 +427,8 @@ Imaginary
 Its
 Interchange
 Instructions
+Idea
+Initially
 We
 What
 Which
@@ -511,6 +527,7 @@ averaging
 automatically
 available
 above
+adopted
 set
 subset
 studying
@@ -589,6 +606,9 @@ specific
 stats
 strongly
 simple
+substitution
+sentence
+step
 by
 be
 before
@@ -668,6 +688,7 @@ Complementation
 Contrasts
 Change
 Conflicts
+CFL
 us
 up
 using
@@ -682,6 +703,7 @@ uniform
 used
 unsharp
 useful
+until
 just
 json
 what
@@ -793,6 +815,9 @@ commit
 commands
 conflicted
 conflicts
+collection
+choose
+corresponds
 RECURSIVE
 REGULAR
 Regex
@@ -804,6 +829,8 @@ Range
 RGB
 Representing
 Review
+Rightarrow
+Repeat
 hierarchy
 has
 hard
@@ -922,6 +949,8 @@ resulting
 region
 resolve
 recommend
+remain
+reverse
 no
 next
 nondeterministic
@@ -945,6 +974,9 @@ noises
 nth
 nearest
 neighbors
+nondeterminism
+nondeterministically
+now
 vending
 valid
 verify
@@ -967,6 +999,7 @@ vs
 variance
 vault
 viewing
+vert
 Union
 Usually
 Ultrasound
@@ -997,6 +1030,7 @@ Neighborhood
 Neighborhoods
 Non
 Not
+Necessity
 Proof
 Pumping
 PushDown
@@ -1040,6 +1074,8 @@ graphics
 grayscale
 group
 get
+generated
+guess
 You
 YiFuaYUtAc
 Xk
