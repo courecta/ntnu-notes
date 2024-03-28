@@ -444,3 +444,4 @@ Fourier Analysis = Fourier Series + Fourier transform
 - Some functions are formed by a finite number of sinusoidal / sinuous functions
 - Some functions may require an infinite number of sinusoidal / sinuous functions to compose
 
+- A fourier transform preserves the information
