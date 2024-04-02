@@ -360,4 +360,15 @@ We can see that the CFG ( V, &Sigma;, R, S ) for A with a recognizer ( Q, &Sigma
 - For a transition ( q<sub>i</sub>, a ) &rarr; q<sub>j</sub> with a grammar rule of A<sub>i</sub> &rarr; aA<sub>j</sub>
 - For each accept state q<sub>j</sub>, a grammar rule A<sub>f</sub> &rarr; &epsilon;
 - S = V<sub>0</sub>
-- 
+
+Claim 2.31
+
+- If x can bring P from p with empty stack to q with empty stack. A<sub>pq</sub> generates x
+
+Proof:
+
+- By induction, on the number of steps in the computation of P goes from p to q with empty stack on input x
+
+- Basis: only one rile whose right side is a terminal can be applied 7rarr; p = q
+- Inductive Step: Assume that A<sub>pq</sub> &rarr; x with k + 1 steps for some k &GreaterEqual; 1
+- The 1st step is either A<sub>pq</sub> &rarr; aA<sub>rs</sub>b or A<sub>pq</sub> &rarr; A<sub>pq</sub>A<sub>rq</sub>
