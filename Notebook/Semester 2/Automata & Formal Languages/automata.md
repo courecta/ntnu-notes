@@ -346,3 +346,4 @@ Proof of Lemma 2.27 ( PDA to CFG )
 - For a PDA P = ( Q, &Sigma;, &Gamma;, &delta;, q<sub>0</sub>, F ), we want to make a CFG that generates all strings that P accepts
 - ( Idea ) Any string that P accepts corresponds to a path from q<sub>0</sub> to some accept state, and we want to depict all possibilities of such transitions
 - The difficulty here is that the transitions now depend on the stack symbol
+
