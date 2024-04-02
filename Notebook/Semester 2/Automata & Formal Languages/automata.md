@@ -347,3 +347,17 @@ Proof of Lemma 2.27 ( PDA to CFG )
 - ( Idea ) Any string that P accepts corresponds to a path from q<sub>0</sub> to some accept state, and we want to depict all possibilities of such transitions
 - The difficulty here is that the transitions now depend on the stack symbol
 
+We can give the example of a CFG for a regular language where,
+
+- M is the DFA for a regular language A
+- How M processes a string S can be viewed as a way to generate s = s<sub>1</sub>...s<sub>n</sub>
+- Every transition generates a symbol of s
+
+We can see that the CFG ( V, &Sigma;, R, S ) for A with a recognizer ( Q, &Sigma;, &delta;, q<sub>0</sub>, F ):
+
+- V = Q
+	- We use A<sub>i</sub> for the corresponding variable q<sub>i</sub>
+- For a transition ( q<sub>i</sub>, a ) &rarr; q<sub>j</sub> with a grammar rule of A<sub>i</sub> &rarr; aA<sub>j</sub>
+- For each accept state q<sub>j</sub>, a grammar rule A<sub>f</sub> &rarr; &epsilon;
+- S = V<sub>0</sub>
+- 
