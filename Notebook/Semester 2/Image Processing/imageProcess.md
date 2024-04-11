@@ -472,3 +472,6 @@ Example:
 $$
 f(ax)\xleftrightarrow{}\frac{1}{a}F\left( \frac{u}{a} \right)
 $$
+Properties
+
+- DC coefficient
