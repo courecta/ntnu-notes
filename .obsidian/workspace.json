@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "740ccebfed82a7bb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +183,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "88129a7ea5a2961d",
+  "active": "740ccebfed82a7bb",
   "lastOpenFiles": [
     "Notebook/Semester 2/Image Processing/imageProcess.md",
     "Notebook/Semester 2/Automata & Formal Languages/automata.md",
