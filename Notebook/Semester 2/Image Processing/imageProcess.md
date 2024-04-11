@@ -475,3 +475,14 @@ $$
 Properties
 
 - DC coefficient
+- Scaling
+- Conjugate Symmetry
+- Linearity
+- Periodicity
+- Shifting
+
+Application:
+
+Noise Removal of $$f'=f+n,n:\text{additive noise}$$ where, $$\mathcal{F}(f')=\mathcal{F}(f+n)=\mathcal{F}(f)+\mathcal{F}(n)$$
+it may be easier to identify F(n) than n
+
