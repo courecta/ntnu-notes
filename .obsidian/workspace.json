@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88129a7ea5a2961d",
+            "id": "740ccebfed82a7bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "740ccebfed82a7bb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md",
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notebook/Semester 2/Automata & Formal Languages/automata.md"
+                "file": "Notebook/Semester 2/Image Processing/imageProcess.md"
               }
             }
           },

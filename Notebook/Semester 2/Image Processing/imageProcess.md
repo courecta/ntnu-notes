@@ -446,9 +446,29 @@ Fourier Analysis = Fourier Series + Fourier transform
 
 - A Fourier transform preserves the information of the signal function
 
-$$F(u)=\int_{-\infty}^{\infty}f(x)\exp(-j_{2}\pi ux) dx $$
+$$F(u)=\int_{-\infty}^{\infty}f(x)\exp(-j{2}\pi ux) dx $$
 while the inverse Fourier transform of F( u ) is
 
-$$f(x)=\int_{-\infty}^{\infty}F(u)\exp(j_{2}\pi ux) dx$$
+$$f(x)=\int_{-\infty}^{\infty}F(u)\exp(j{2}\pi ux) dx$$
 
 and there are the discrete versions of both as well, and the vector-matrix form bases off of the discrete form instead
+
+$$
+F_{u}=\frac{1}{N}\sum^{n-1}_{x=0}f_{x}\exp( \frac{-j{2}\pi ux}{N} ),u=0,1,\dots,N-1
+$$
+
+$$
+f_{x}=\sum^{N-1}_{u=0}F_{u}\exp( \frac{j{2}\pi ux}{N} ),x=0,1,\dots,N-1
+$$
+
+
+Fourier series
+
+$$
+f(x)=\sum^{\inf}_{n=-\inf}c_{n}\exp(jn\omega x),\omega=\frac{2\pi}{T}
+$$
+Example:
+
+$$
+f(ax)\xleftrightarrow{}\frac{1}{a}F\left( \frac{u}{a} \right)
+$$
