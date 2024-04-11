@@ -486,3 +486,8 @@ Application:
 Noise Removal of $$f'=f+n,n:\text{additive noise}$$ where, $$\mathcal{F}(f')=\mathcal{F}(f+n)=\mathcal{F}(f)+\mathcal{F}(n)$$
 it may be easier to identify F(n) than n
 
+Filtering in Frequency Domain 
+Low pass filtering
+
+as D increases for filtering frequency, the image becomes blurrier
+High pass filtering 
