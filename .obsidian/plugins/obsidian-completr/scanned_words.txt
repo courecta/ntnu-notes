@@ -43,6 +43,7 @@ edge
 every
 enlargement
 error
+easier
 plugin
 parsed
 problems
@@ -189,6 +190,9 @@ Solutions
 Stretch
 Series
 Some
+Scaling
+Symmetry
+Shifting
 EXCALIDRAW
 Each
 Exercise
@@ -240,6 +244,8 @@ interpolation
 inverse
 infinite
 instead
+identify
+increases
 MORE
 Machine
 Matplotlib
@@ -400,6 +406,8 @@ Dithering
 Dark
 Deformable
 Drawbacks
+DC
+Domain
 Formal
 First
 FORMAL
@@ -421,6 +429,7 @@ Frequency
 Fourier
 Find
 Filling
+Filtering
 Languages
 Lecture
 Let
@@ -433,6 +442,7 @@ LMS
 Lastly
 Laplacian
 Linear
+Linearity
 Automata
 Accept
 Assume
@@ -450,6 +460,7 @@ Any
 Apply
 Anamorphisis
 Analysis
+Application
 Introduction
 Is
 It
@@ -692,6 +703,8 @@ boost
 below
 blocks
 bases
+becomes
+blurrier
 Hilbert
 Here
 HTSqr
@@ -742,6 +755,7 @@ Change
 Conflicts
 CFL
 Consider
+Conjugate
 us
 up
 using
@@ -879,6 +893,7 @@ cubic
 columns
 cosines
 compose
+coefficient
 RECURSIVE
 REGULAR
 Regex
@@ -895,6 +910,7 @@ Repeat
 Rigid
 Reduction
 Rotation
+Removal
 hierarchy
 has
 hard
@@ -1112,6 +1128,7 @@ Not
 Necessity
 Nearest
 NN
+Noise
 Proof
 Pumping
 PushDown
@@ -1128,6 +1145,8 @@ Possible
 Point
 Please
 Perform
+Properties
+Periodicity
 By
 Bold
 Brief
