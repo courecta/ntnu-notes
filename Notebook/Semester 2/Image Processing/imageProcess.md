@@ -491,3 +491,36 @@ Low pass filtering
 
 as D increases for filtering frequency, the image becomes blurrier
 High pass filtering 
+
+## Chapter 8 - Image Restoration
+
+Types of degradation:
+
+- noise
+- error
+- distortion
+- blurring
+- etc...
+
+2 ways to recover degraded images
+
+1. Image Enhancement: Overlook degradation processes, deals with image intuitively
+2. Image Restoration: Known degradation process; model the process and reconstruct via an inverse models
+
+Degradation Model $$g(x,y)=f(x,y)\star h(x,y)+n(x,y)$$
+where:
+
+- g is the  degraded image
+- f is the true image
+- * is the convolution operation
+- h is the degradation process
+- n is the additive noise
+
+Types of Noise:
+
+- White Noise: noise whose Fourier spectrum is constant
+- Periodic Noise: 
+- Salt-and-Pepper Noise: 
+- Uniform Noise:
+- Gaussian Noise:
+- 
